@@ -13,11 +13,3 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
 
 
-// script.js
-function adjustHeroHeight() {
-    const hero = document.querySelector('.hero-img');
-    if (hero) hero.style.height = window.innerHeight + 'px';
-}
-
-window.addEventListener('load', adjustHeroHeight);
-window.addEventListener('resize', adjustHeroHeight);
